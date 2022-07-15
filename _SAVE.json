@@ -1,0 +1,329 @@
+{
+    "Player": {
+        "Attributes": {
+            "attack": 5,
+            "health": 100,
+            "mana": 0,
+            "name": "mo",
+            "position": 9,
+            "xp": 0
+        }
+    },
+    "Rooms": {
+        "1": {
+            "Description": "You Find A small troll Encampment",
+            "Enemies": [
+                {
+                    "Attributes": {
+                        "attack": 15,
+                        "health": 10,
+                        "name": "Troll Youngling",
+                        "xp": 20
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 15,
+                        "health": 10,
+                        "name": "Troll Youngling",
+                        "xp": 20
+                    }
+                }
+            ],
+            "Exits": [
+                [
+                    "East",
+                    4
+                ],
+                [
+                    "South",
+                    2
+                ]
+            ]
+        },
+        "2": {
+            "Description": "You find yourself in a large clearing with a belowing fire in the center",
+            "Enemies": [
+                {
+                    "Attributes": {
+                        "attack": 30,
+                        "health": 20,
+                        "name": "Troll",
+                        "xp": 40
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 30,
+                        "health": 20,
+                        "name": "Troll",
+                        "xp": 40
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 30,
+                        "health": 20,
+                        "name": "Troll",
+                        "xp": 40
+                    }
+                }
+            ],
+            "Exits": [
+                [
+                    "North",
+                    1
+                ]
+            ]
+        },
+        "3": {
+            "Description": "You Find yourself in a clearing that has a small alter in the center",
+            "Enemies": [
+                {
+                    "Attributes": {
+                        "attack": 3,
+                        "health": 12,
+                        "name": "Wolf",
+                        "xp": 7
+                    }
+                }
+            ],
+            "Exits": [
+                [
+                    "East",
+                    6
+                ]
+            ],
+            "Items": [
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Pickup",
+                                {
+                                    "Attributes": {
+                                        "health": -3,
+                                        "mana": 3
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Blood Mana Orb",
+                        "used": 0
+                    }
+                }
+            ]
+        },
+        "4": {
+            "Description": "You find a small campsite of some kind. You find a man standing by the fire",
+            "Exits": [
+                [
+                    "East",
+                    7
+                ],
+                [
+                    "South",
+                    5
+                ],
+                [
+                    "West",
+                    1
+                ]
+            ],
+            "NPCs": [
+                {
+                    "Attributes": {
+                        "description": "the man seems to be looking South",
+                        "name": "Athos",
+                        "questions": [
+                            [
+                                "Who are you?",
+                                "My name is Athos I live here"
+                            ],
+                            [
+                                "What are you looking at?",
+                                "The Ruins to the south I heard some strange noices earlier"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "5": {
+            "Description": "You find yourself in a small clearing type area looking at a large humanoid statue guarding a simple archway that seems to shimmer the air like a fire does but you see no fire in sight",
+            "Enemies": [
+                {
+                    "Attributes": {
+                        "attack": 6,
+                        "health": 40,
+                        "name": "Portal Guardian",
+                        "xp": 70
+                    }
+                }
+            ],
+            "Exits": [
+                [
+                    "North",
+                    4
+                ],
+                [
+                    "Portal",
+                    0
+                ]
+            ]
+        },
+        "6": {
+            "Description": "You find that moving through the brushes you start to feel as though your being watched",
+            "Enemies": [
+                {
+                    "Attributes": {
+                        "attack": 3,
+                        "health": 12,
+                        "name": "Wolf",
+                        "xp": 7
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 3,
+                        "health": 12,
+                        "name": "Wolf",
+                        "xp": 7
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 3,
+                        "health": 12,
+                        "name": "Wolf",
+                        "xp": 7
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 3,
+                        "health": 12,
+                        "name": "Wolf",
+                        "xp": 7
+                    }
+                },
+                {
+                    "Attributes": {
+                        "attack": 5,
+                        "health": 21,
+                        "name": "Wolf Alpha",
+                        "xp": 17
+                    }
+                }
+            ],
+            "Exits": [
+                [
+                    "East",
+                    9
+                ],
+                [
+                    "West",
+                    3
+                ]
+            ]
+        },
+        "7": {
+            "Description": "you find a small cart in at the edge of the forrest with a man stadning at it",
+            "Exits": [
+                [
+                    "South",
+                    8
+                ],
+                [
+                    "West",
+                    4
+                ]
+            ],
+            "Items": [
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "health": 10,
+                                        "xp": -5
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "health Potion",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [
+                {
+                    "Attributes": {
+                        "description": "The Exitable Woman stand by here cart almost as if she's Protecting her Cargo",
+                        "name": "Kinja",
+                        "questions": [
+                            [
+                                "Who are you?",
+                                "My name is Kinja I'm on a delivery mission!"
+                            ],
+                            [
+                                "What are you delivering?",
+                                "Health Potions made for the war of course!"
+                            ],
+                            [
+                                "Can I have some of the potions?",
+                                "That depends on if your willing to purchase one!"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "8": {
+            "Description": "You find that you see the sun starting to set through the breif glimpses in the trees",
+            "Exits": [
+                [
+                    "North",
+                    7
+                ],
+                [
+                    "South",
+                    9
+                ]
+            ]
+        },
+        "9": {
+            "Description": "You find yourself inside of a forrest beside what seems to be an old broken archway in the middle of a clearing in a forrest you also see a kind of alter holding some sort of orb",
+            "Exits": [
+                [
+                    "North",
+                    7
+                ],
+                [
+                    "West",
+                    6
+                ]
+            ],
+            "Items": [
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Pickup and Use",
+                                {
+                                    "Attributes": {
+                                        "attack": 5
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Attack Orb",
+                        "used": 1
+                    }
+                }
+            ]
+        }
+    }
+}

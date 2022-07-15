@@ -1,0 +1,1654 @@
+{
+    "Player": {
+        "Attributes": {
+            "xp": 0,
+            "attack": 10,
+            "health": 100,
+            "mana": 0,
+            "name": "",
+            "position": "5",
+            "boat": 0
+        }
+    },
+    "Rooms": {
+        "1": {
+            "Description": "You walk into the ruins and it somewhat feels familiar to you at the time, however you are more drawn to the blue flaming portal in the center of the ruins which must have been opened by someone,\nbut to your knowlage all portals are blue not red, you start to wonder what makes this Portal different",
+            "Exits": [
+                [
+                    "East",
+                    5
+                ],
+                [
+                    "Portal",
+                    15
+                ]
+            ]
+        },
+        "2": {
+            "Description": "As you walk around the imperial city of Liham,\nLiham was named so because of the ancient hero who defeated the demon king 100,000 years ago in the center of the city,\nyou come across a market place",
+            "Exits": [
+                [
+                    "East",
+                    10
+                ],
+                [
+                    "South",
+                    3
+                ]
+            ],
+            "Items": [{
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -32,
+                                        "attack": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Sword Orb [25 attk] [32 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "you can see the woman is worried about something",
+                    "name": "mary",
+                    "questions": [
+                        [
+                            "Who are you",
+                            "My name is mary"
+                        ],
+                        [
+                            "Are you okay?",
+                            "Yes I am fine.... I'm just Worried about my sister Rosa thats all she left almost a year ago and she hasnt responded to any of my letters"
+                        ]
+                    ]
+                }
+            }]
+        },
+        "3": {
+            "Description": "You find yourself at the south exit of the city of Liham\nas you walk you find a small house that has a woman inside and \nYou find there are an Absurd amount of Cats",
+            "Exits": [
+                [
+                    "North",
+                    2
+                ],
+                [
+                    "East",
+                    11
+                ]
+            ],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "you look into the eyes of the woman and see something almost chaotic.....",
+                    "name": "Denise",
+                    "questions": [
+                        [
+                            "Who are you?",
+                            "I am Denise I live here with my husband who is getting some food from the market in the city. and... and my cats"
+                        ],
+                        [
+                            "Why do you have so many cats?",
+                            "If i dont take them in Nobody will I have witnissed this fist hand in the city the people there despise cats for some reason, thats why i live all the way out here"
+                        ]
+                    ]
+                }
+            }]
+        },
+        "4": {
+            "Description": "You find your self in a large open feild walking down a trail beside a river",
+            "Exits": [
+                [
+                    "East",
+                    12
+                ],
+                [
+                    "South",
+                    5
+                ]
+            ]
+        },
+        "5": {
+            "Description": "You Find yourself in the city of Cribus Named for it's great invention of a Cribus a specialised gunpowder used for Spacial Cannons The city is bustling with life and you soon descover the shopping district",
+            "Exits": [
+                [
+                    "North",
+                    4
+                ],
+                [
+                    "East",
+                    13
+                ],
+                [
+                    "West",
+                    1
+                ]
+            ],
+            "Items": [{
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -32,
+                                        "attack": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Sword Orb [25 attk] [32 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "Jhohanus is a Store owner that seems to be friendly enough to let you browse his inventory of items",
+                    "name": "Jhohanus",
+                    "questions": [
+                        [
+                            "who are you?",
+                            "I am Jhohanus a Successful entriponure (I made that word up, but it sounds pretty cool doesn't it)"
+                        ],
+                        [
+                            "what do you do?",
+                            "I do lots of things like juggling and all sorts but mainly I am the man everyone comes to for anything they need so you need anything?"
+                        ]
+                    ]
+                }
+            }]
+        },
+        "6": {
+            "Description": "You find yourself in a room that is seemingly chock full of xp orbs and Health Potions you feel overcome with you...... until you realise what the man said 'in this area monsters don't die they just come back when you leave the room'\nthen the horror builds its way back as you realise you have to go through the entire area to get back....",
+            "Exits": [
+                [
+                    "East",
+                    14
+                ]
+            ],
+            "Items": [{
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Use",
+                            {
+                                "Attributes": {
+                                    "xp": 500,
+                                    "health": 90,
+                                    "attack": 15
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Treasure Orb"
+                }
+            }]
+        },
+        "7": {
+            "Description": "you enter a room that has a large pillar in the center with a glowing orb in the center",
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ],
+            "Exits": [
+                [
+                    "South",
+                    8
+                ]
+            ],
+            "Items": [{
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Touch",
+                            {
+                                "Attributes": {
+                                    "health": 40,
+                                    "max_health": 40
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Blood Orb",
+                    "used": 0
+                }
+            }]
+        },
+        "8": {
+            "Description": "You walk into the room and see that there is a large rune in the center of the room on both the ceiling and floor",
+            "Enemies": [{
+                "Attributes": {
+                    "xp": 55,
+                    "attack": 14,
+                    "health": 75,
+                    "name": "Stone Golem"
+                }
+            }],
+            "Exits": [
+                [
+                    "North",
+                    7
+                ],
+                [
+                    "East",
+                    16
+                ]
+            ]
+        },
+        "9": {
+            "Description": "as you wander you find yourself looking into a camp of bandits, suddenly it seems as if they have spotted you",
+            "Exits": [
+                ["East", 17],
+                ["South", 10]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                }
+            ]
+        },
+        "10": {
+            "Description": "You find yourself wandeing by the East entrance to a large city",
+            "Exits": [
+                ["North", 9],
+                ["East", 18],
+                ["South", 11],
+                ["West", 2]
+            ]
+        },
+        "11": {
+            "Description": "you find yourself wandering through the feild on a dirt track seeing people pass you going towards the city of Liham or other neighbouring cities",
+            "Exits": [
+                ["North", 10],
+                ["East", 19],
+                ["West", 3]
+            ]
+        },
+        "12": {
+            "Description": "You enter the city of Pluifield a city which once was a farming village but grew due to the enonomy demanding more resources and to the day you can still find signs of the decay that the demon king who ruled the land before he was banished to another world\n you quickly find a market and find that there is nothing for sale as everyone seems to be packing up to leave",
+            "Exits": [
+                ["East", 21],
+                ["South", 13],
+                ["West", 4]
+            ],
+            "Items": [{
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Touch",
+                            {
+                                "Attributes": {
+                                    "health": 40,
+                                    "max_health": 40
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Blood Orb",
+                    "used": 0
+                }
+            }]
+        },
+        "13": {
+            "Description": "you find your self traveling for hours and decide to stop in the middle of the feild for a rest",
+            "Exits": [
+                ["North", 12],
+                ["East", 22],
+                ["West", 5]
+            ]
+        },
+        "14": {
+            "Description": "You find yourself entering a large open room that seems to be compleately empty nothing in sight............... almost too much nothing",
+            "Exits": [
+                ["East", 23],
+                ["West", 6]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                }
+            ]
+        },
+        "15": {
+            "Description": "You find yourself in the middle of a room standing in an area that seemingly has no right existing being here seems to feel wrong in all aspects of you body\n you see a young looking man in the corner of the room",
+            "Exits": [
+                ["East", 24],
+                ["South", 16]
+            ],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "you see a young looking man who seems to becan you over",
+                    "name": "Reyan",
+                    "questions": [
+                        ["Who are you?", "I am Reyan I was along side Liham when We vanquished the demon lord 100,000 years ago, your thinking how, well nothing ever changes in this realm the demon lord saw to that, by sealing this realm outside of time there are oddities about the area, for example all the monsters that exist to protect this realm will never continue in death, they are mearly dead until you leave the room"],
+                        ["What was Liham Like?", "he was a brave man who decided to do a foolish thing of Imprisoning the demon lord instead of killing him, the demon lord resides inside of Liham's courpse as Liham must have died by now *[you see the man shed a single tear before the tear shimmeres out of existance]* we imprisoned the demon lord inside of Liham's Soul as a last resort to stop the demon from completing his mission of destroying the world by unleashing his demon hourd on the innocents of this world "],
+                        ["Listen to the man", "I would ask you a favour, find Liham's Body and destroy it so that his soul may be set free and that the demon lord stays in hell for the rest of eternity"]
+                    ]
+                }
+            }]
+        },
+        "16": {
+            "Description": "you find yourself in a small room in which you see a large statue and a depiction of a Spider",
+            "Exits": [
+                ["North", 15],
+                ["East", 25],
+                ["West", 8]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ]
+        },
+        "17": {
+            "Description": "you find yourself in the center of a cross roads that seems to have an interesting veiw through a mountain cave",
+            "Exits": [
+                ["East", 26],
+                ["South", 18],
+                ["West", 9]
+            ]
+        },
+        "18": {
+            "Description": "youfind yourself in a forrest wading through the underbrush of the forrest",
+            "Exits": [
+                ["North", 17],
+                ["East", 27],
+                ["South", 19],
+                ["West", 10]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 10,
+                        "attack": 3,
+                        "health": 15,
+                        "name": "Wolf"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 10,
+                        "attack": 3,
+                        "health": 15,
+                        "name": "Wolf"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 10,
+                        "attack": 3,
+                        "health": 15,
+                        "name": "Wolf"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 10,
+                        "attack": 3,
+                        "health": 15,
+                        "name": "Wolf"
+                    }
+                }
+            ]
+        },
+        "19": {
+            "Description": "As you walk around the imperial city of Liham,\nLiham was named so because of the ancient hero who defeated the demon king 100,000 years ago in the center of the city,\nyou come across a market place",
+            "Exits": [
+                ["North", 18],
+                ["East", 19]
+            ],
+            "Items": [{
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -32,
+                                        "attack": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Sword Orb [25 attk] [32 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "The man seems to glare at you the entire time",
+                    "name": "Joe",
+                    "questions": [
+                        [
+                            "Who are you",
+                            "My name is joe"
+                        ],
+                        [
+                            "Are you okay?",
+                            "Yes I just want you to buy something"
+                        ]
+                    ]
+                }
+            }]
+        },
+        "20": {
+            "Description": "You Enter The mountain Pass that seems and you suddenly find yourself in the midst of a battle",
+            "Exits": [
+                ["North", 19],
+                ["South", 20]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Imperial Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Imperial Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Imperial Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Imperial Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Republican Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Republican Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Republican Soldier"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 13,
+                        "health": 150,
+                        "name": "Republican Soldier"
+                    }
+                }
+            ]
+        },
+        "21": {
+            "Description": "you find yourself in a large open area with a narrow path leading towards the mountain line in the north",
+            "Exits": [
+                ["North", 20],
+                ["East", 29],
+                ["South", 22],
+                ["West", 12]
+            ]
+        },
+        "22": {
+            "Description": "You find yourself surrounded by guardsman who seem adiment about stealing from you",
+            "Exits": [
+                ["North", 21],
+                ["East", 30],
+                ["West", 13]
+            ]
+        },
+        "23": {
+            "Description": "you enter the room only to be greated by more guardians",
+            "Exits": [
+                ["East", 31],
+                ["West", 14]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ]
+        },
+        "24": {
+            "Description": "You enter a large open room with nothing inside",
+            "Exits": [
+                ["South", 25],
+                ["West", 15]
+            ]
+        },
+        "25": {
+            "Description": "You enter a large room that has a few guardians lerking in the center of teh room",
+            "Exits": [
+                ["North", 24],
+                ["East", 33]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ]
+        },
+        "26": {
+            "Description": "You wander into a forrest and you see something moving up ahead",
+            "Exits": [
+                ["East", 34],
+                ["South", 27],
+                ["West", 17]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 14,
+                        "attack": 17,
+                        "health": 20,
+                        "name": "fox"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 14,
+                        "attack": 17,
+                        "health": 20,
+                        "name": "fox"
+                    }
+                }
+            ]
+        },
+        "27": {
+            "Description": "You find yourself in the middle of a clearing in the forrest",
+            "Exits": [
+                ["North", 26],
+                ["East", 35],
+                ["South", 28],
+                ["West", 18]
+            ],
+            "Items": [{
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Buy and Use",
+                            {
+                                "Attributes": {
+                                    "mana": 28
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Mana Orb",
+                    "used": 0
+                }
+            }]
+        },
+        "28": {
+            "Description": "you find yourself wandeing.... eventually you find that you stumble across a camp",
+            "Exits": [
+                ["North", 27],
+                ["East", 36],
+                ["West", 19]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 102,
+                        "attack": 16,
+                        "health": 114,
+                        "name": "bandit"
+                    }
+                }
+            ]
+        },
+        "29": {
+            "Description": "You enter the city of Eimling and quickly find the market place",
+            "Exits": [
+                ["East", 37],
+                ["South", 30],
+                ["West", 21]
+            ],
+            "Items": [{
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Buy and Use",
+                            {
+                                "Attributes": {
+                                    "xp": -70,
+                                    "mana": 28
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Mana Orb [28 mana] [70 xp]",
+                    "used": 0
+                }
+            }, {
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Buy and Drink",
+                            {
+                                "Attributes": {
+                                    "xp": -15,
+                                    "health": 25
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Health Potion [25 hp] [15 xp]",
+                    "used": 0
+                }
+            }, {
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Buy and Drink",
+                            {
+                                "Attributes": {
+                                    "xp": -15,
+                                    "health": 25
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Health Potion [25 hp] [15 xp]",
+                    "used": 0
+                }
+            }, {
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Buy and Use",
+                            {
+                                "Attributes": {
+                                    "xp": -32,
+                                    "attack": 25
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Sword Orb [25 attk] [32 xp]",
+                    "used": 0
+                }
+            }, {
+                "Attributes": {
+                    "actions": [
+                        [
+                            "Buy and Use",
+                            {
+                                "Attributes": {
+                                    "xp": -70,
+                                    "mana": 28
+                                }
+                            }
+                        ]
+                    ],
+                    "name": "Mana Orb [28 mana] [70 xp]",
+                    "used": 0
+                }
+            }],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "Jhohanus is a Store owner that seems to be friendly enough to let you browse his inventory of items",
+                    "name": "Jhohanus",
+                    "questions": [
+                        [
+                            "who are you?",
+                            "I am Jhohanus a Successful entriponure (I made that word up, but it sounds pretty cool doesn't it)"
+                        ],
+                        [
+                            "what do you do?",
+                            "I do lots of things like juggling and all sorts but mainly I am the man everyone comes to for anything they need so you need anything?"
+                        ]
+                    ]
+                }
+            }]
+        },
+        "30": {
+            "Description": "You find yourself at a crossroads with 4 roads and one of these roads leads to a lonly house",
+            "Exits": [
+                ["North", 29],
+                ["East", 38],
+                ["West", 22]
+            ]
+        },
+        "31": {
+            "Description": "You enter a large Square Room that seems to have a barriar on the other side of the room",
+            "Exits": [
+                ["South", 32],
+                ["West", 23]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ]
+        },
+        "32": {
+            "Description": "You find yourself wandeing into a round room that seems to have a few guardians",
+            "Exits": [
+                ["North", 31],
+                ["South", 33]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ]
+        },
+        "33": {
+            "Description": "you find yourself in a corner room with seemingly no guardians",
+            "Exits": [
+                ["North", 32],
+                ["West", 25]
+            ],
+            "Enemies": [{
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 20,
+                        "attack": 8,
+                        "health": 35,
+                        "name": "Stone Spider"
+                    }
+                },
+                {
+                    "Attributes": {
+                        "xp": 55,
+                        "attack": 14,
+                        "health": 75,
+                        "name": "Stone Golem"
+                    }
+                }
+            ]
+        },
+        "34": {
+            "Description": "you find yourself in the capital city of the Empire Anecaster you easily find yourself in the market place",
+            "Exits": [
+                ["East", 39],
+                ["South", 35],
+                ["West", 26]
+            ],
+            "Items": [{
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -32,
+                                        "attack": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Sword Orb [25 attk] [32 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [{
+                    "Attributes": {
+                        "description": "Jhohanus is a Store owner that seems to be friendly enough to let you browse his inventory of items",
+                        "name": "Jhohanus",
+                        "questions": [
+                            [
+                                "who are you?",
+                                "I am Jhohanus a Successful entriponure (I made that word up, but it sounds pretty cool doesn't it)"
+                            ],
+                            [
+                                "what do you do?",
+                                "I do lots of things like juggling and all sorts but mainly I am the man everyone comes to for anything they need so you need anything?"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "Attributes": {
+                        "description": "You are lead to the castle and put in front of the King of the Empire",
+                        "name": "Augustus",
+                        "questions": [
+                            ["Who are you?", "I am king of the empire Augustus"],
+                            ["Why am I here?", "I have a Job for you\n I want you to find our hero Liham and destroy his body as it contains the essance of the demon Lord and destroying it is the only way to bring peace to the lands"],
+                            ["Why?", "Because I say so and I am the king"],
+                            ["Will you join my party?", "I shall think about your offer"]
+                        ]
+                    }
+                }
+            ]
+        },
+        "35": {
+            "Description": "You find yourself in the middle of a small village although all the vilagers seem to look away any time you look directly at them",
+            "Exits": [
+                ["North", 34],
+                ["East", 40],
+                ["South", 36],
+                ["West", 27]
+            ]
+        },
+        "36": {
+            "Description": "You find yourself in the center of the market in the city of OakMore",
+            "Exits": [
+                ["North", 35],
+                ["West", 28]
+            ],
+            "Items": [{
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -32,
+                                        "attack": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Sword Orb [25 attk] [32 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [{
+                "Attributes": {
+                    "description": "Jhohanus is a Store owner that seems to be friendly enough to let you browse his inventory of items",
+                    "name": "Jhohanus",
+                    "questions": [
+                        [
+                            "who are you?",
+                            "I am Jhohanus a Successful entriponure (I made that word up, but it sounds pretty cool doesn't it)"
+                        ],
+                        [
+                            "what do you do?",
+                            "I do lots of things like juggling and all sorts but mainly I am the man everyone comes to for anything they need so you need anything?"
+                        ]
+                    ]
+                }
+            }]
+        },
+        "37": {
+            "Description": "on your travels you find that you start to smell salt of some sort",
+            "Exits": [
+                ["East", 41],
+                ["South", 38],
+                ["West", 29]
+            ]
+        },
+        "38": {
+            "Description": "you find yourself in the capital city of the Republic Verton you easily find yourself in the market place",
+            "Exits": [
+                ["East", 39],
+                ["South", 35],
+                ["West", 26]
+            ],
+            "Items": [{
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Drink",
+                                {
+                                    "Attributes": {
+                                        "xp": -15,
+                                        "health": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Health Potion [25 hp] [15 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -32,
+                                        "attack": 25
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Sword Orb [25 attk] [32 xp]",
+                        "used": 0
+                    }
+                },
+                {
+                    "Attributes": {
+                        "actions": [
+                            [
+                                "Buy and Use",
+                                {
+                                    "Attributes": {
+                                        "xp": -70,
+                                        "mana": 28
+                                    }
+                                }
+                            ]
+                        ],
+                        "name": "Mana Orb [28 mana] [70 xp]",
+                        "used": 0
+                    }
+                }
+            ],
+            "NPCs": [{
+                    "Attributes": {
+                        "description": "Jhohanus is a Store owner that seems to be friendly enough to let you browse his inventory of items",
+                        "name": "Jhohanus",
+                        "questions": [
+                            [
+                                "who are you?",
+                                "I am Jhohanus a Successful entriponure (I made that word up, but it sounds pretty cool doesn't it)"
+                            ],
+                            [
+                                "what do you do?",
+                                "I do lots of things like juggling and all sorts but mainly I am the man everyone comes to for anything they need so you need anything?"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "Attributes": {
+                        "description": "You are lead to the castle and put in front of the King of the Empire",
+                        "name": "Jasi",
+                        "questions": [
+                            ["Who are you?", "I am king of the empire Jasi"],
+                            ["Why am I here?", "I have a Job for you\n I want you to find our hero Liham and destroy his body as it contains the essance of the demon Lord and destroying it is the only way to bring peace to the lands"],
+                            ["Why?", "Because I say so and I am the king"],
+                            ["Will you join my party?", "No"]
+                        ]
+                    }
+                }
+            ]
+        },
+        "39": {
+            "Description": "You Find a small platoon of Soldiers in the area",
+            "Exits": [
+                ["East", 42],
+                ["South", 40]
+            ]
+        }
+
+    }
+}
